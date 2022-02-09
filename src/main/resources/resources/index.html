@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎</title>
+</head>
+<body>
+欢迎wfr
+<ul>
+    <a href="/test01/wfr/and/19?height=170&hobbies=pingpang&hobbies=basketball">/test01/{username}/and/{age}</a>
+    <li>@PathVariable(路径变量)</li>
+    <li>@RequestHeader(获取请求头)</li>
+    <li>@RequestParam(获取请求参数/li>
+    <li>@CookieValue(获取cookie值)</li>
+    <a href="/goto?age=12&username=wfr">/goto/wfr?age=12</a>
+    <li>@RequestAttribute(获取request域属性)</li>
+    <a href="/test03/haha;username=wfrrr;hobbies=basketball,tennis,football">/test03;username=wfrrr;hobbies=basketball,tennis,football</a>
+    <li>@MatrixVariable(矩阵变量)</li>
+</ul>
+
+<form action="/test02/" method="post">
+    @RequestBody(获取请求体)<br>
+    用户名<input name="username"><br>
+    年龄<input name="age"><br>
+    <button type="submit">提交</button>
+</form>
+
+<a href="/testAOP/10/100">测试AOP</a>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>success</title>
+</head>
+<body>
+<h1 th:text="${msg}">哈哈</h1>
+<a href="http://www.atguigu.com" th:href="${link}">去百度</a><br>
+<a href="http://www.atguigu.com" th:href="@{link}">去link(直接把link当字符串)</a>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#spring:
+#  mvc:
+##    静态资源访问前缀
+#    static-path-pattern: /res/**
+#  resources:
+##    静态资源自定义路径
+#    static-locations: [classpath:/haha/]
+
+server:
+  servlet:
+    context-path: /world
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB  # 上传单个文件最大大小
+      max-request-size: 100MB  # 上传文件总最大大小
+  datasource:
+    url: jdbc:mysql://localhost:3306/atguigudb
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    filters: stat
+
+mycar:
+  brand: BYD
+  price: 100000
