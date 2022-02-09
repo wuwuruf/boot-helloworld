@@ -21,6 +21,5 @@ public class MainApplication {
 //        DataSource dataSourceBean = run.getBean(DataSource.class);
 //        System.out.println(dataSourceBean.getClass());
 //        System.out.println(dataSourceBean);
-        // 111
     }
 }
