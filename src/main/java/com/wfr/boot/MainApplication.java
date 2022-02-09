@@ -22,5 +22,6 @@ public class MainApplication {
 //        System.out.println(dataSourceBean.getClass());
 //        System.out.println(dataSourceBean);
         System.out.println("222");
+        System.out.println("333");
     }
 }
